@@ -1,0 +1,27 @@
+<view class="container container-fill">
+	<view class="scroll-fullpage" bindtouchstart="scrollTouchstart" bindtouchmove="scrollTouchmove" bindtouchend="scrollTouchend" style="transform:translateY(-{{scrollindex*100}}%);margin-top: {{margintop}}px">
+		<view class="section section01 {{scrollindex==0?'active':''}}" style="background: #3399FF;">
+			<text class="section-maintitle">事项清单</text>
+			<text class="section-subtitle">时间管理大师真传就在此</text>
+		</view>
+		<view class="section section02 {{scrollindex==1?'active':''}}" style="background: #00CC66;">
+			<text class="section-maintitle">趣味涂鸦</text>
+			<text class="section-subtitle">让你成为表情包手绘大师</text>
+		</view>
+		<view class="section section03 {{scrollindex==2?'active':''}}" style="background: #33CCCC;">
+			<text class="section-maintitle">智能计算器</text>
+			<text class="section-subtitle">再也不用为繁琐计算所困扰</text>
+			<text class="section-subtitle">虽然可能帮不上什么，但也许有心理作用吧</text>
+		</view>
+		<view class="section section04 {{scrollindex==3?'active':''}}" style="background: #6699FF;">
+			<text class="section-maintitle">画布时钟</text>
+			<text class="section-subtitle">让你静静感受时间的流淌</text>
+			<text class="section-subtitle">明白发呆是那么令人愉悦</text>
+		</view>
+		<view class="section section05 {{scrollindex==4?'active':''}}" style="background: #9966FF;">
+			<text class="section-maintitle">万年日历</text>
+			<text class="section-subtitle">有事没事看看假期时间</text>
+			<text class="section-subtitle">说不定快开学了呢</text>
+		</view>
+	</view>
+</view>

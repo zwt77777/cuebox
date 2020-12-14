@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "index/index",
+    "profile/profile",
+    "pages/yij/yij",
+    "pages/li/li",
+    "pages/yi/yi",
+    "pages/ci/ci"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "功能"
+      },
+      {
+        "pagePath": "profile/profile",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FF00",
+    "navigationBarTitleText": "CueBox",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "tabbar":"/custom-tab-bar/index"
+  }
+}
